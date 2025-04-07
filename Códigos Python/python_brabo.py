@@ -4,6 +4,9 @@ nome=str(input("Escreva o nome do seu personagem: "))
 atr=str(input("Escreva o atributo que você quer aumentar. Digite 'V' para velocidade, 'F' para força e 'I' para inteligência: "))
 pon=int(input("Agora insira quantos pontos de atributo você quer utilizar: "))
 
+print("""Isso não tem nada a ver com o meu sistema de treinamento de RPG: Em um dos capítulos de Dragon Ball Super, o personagem Vegeta disse, em inglês: 'I haven't felt in this way in a long time, there is no planet to protect, 
+no people to save, just the thing to get a crazy battle saiyan blood puppin!!!""")
+
 if atr=="F" or atr=="f":
     print(f"Você aumentou sua força em {pon} ponto(s)!")
 elif atr=="V" or atr=="v":
